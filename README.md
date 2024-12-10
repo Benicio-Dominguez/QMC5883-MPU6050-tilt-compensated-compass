@@ -1,6 +1,6 @@
 # QMC5883-MPU6050-tilt-compensated-compass
 Code and schematic for building a precise tilt compensated compass using QMC5883 and MPU6050 (or a MPU9050 knockoff with no magnetometer).
-Works nicely on ESP32, should work on Arduino as well.
+Works nicely on ESP32, should work on Arduino as well. It has a compass calibration algorithm.
 
 The only connection is the following:
 * MPU and QMC are connected to the I2C bus. If you are using an ESP32, a logical level shifter is necessary.
