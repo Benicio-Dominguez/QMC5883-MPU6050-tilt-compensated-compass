@@ -9,8 +9,11 @@ For the tilt compensation to work right off, the Z axis of both sensors must coi
 
 "Gire el magnetómetro..." means that you have to turn the sensor around its axes slowly and at a constant pace, it is the magnetometer calibration.
 
-Important: The code depends on "MPU9250_WE" and "Mecha_QMC5883L" libraries. Links: 
+Important: The code depends on "MPU9250_WE" and "Mecha_QMC5883L" libraries. 
+Links: 
+
 https://github.com/wollewald/MPU9250_WE
+
 https://github.com/keepworking/Mecha_QMC5883L
 
 Just download and put them on your arduino libraries directory.
