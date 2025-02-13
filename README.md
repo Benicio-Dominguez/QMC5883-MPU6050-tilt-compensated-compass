@@ -5,7 +5,11 @@ Works nicely on ESP32, should work on Arduino as well. It has a compass calibrat
 The only connection is the following:
 * MPU and QMC are connected to the I2C bus. If you are using an ESP32, a logical level shifter is necessary.
 
-For the tilt compensation to work right off, the Z axis of both sensors must coincide, the X axis of the QMC must point in the same direction as the Y axis of the MPU, and the Y axis of the QMC must point in the opposite direction of the X axis of the MPU. If you want to place the sensors in a different way, you must change a little the code.
+### "AHRS_DOMINGUEZ2.ino"
+For the tilt compensation to work right off, the Z axis of both sensors must coincide, the X axis of the QMC must point in the same direction as the Y axis of the MPU, and the Y axis of the QMC must point in the opposite direction of the X axis of the MPU. 
+
+### "AHRS_GusBeny_FINAL.ino"
+For this alternative code to work, the Z axis of both sensors must coincide, the X axis of the QMC must point in the opposite direction of the Y axis of the MPU, and the Y axis of the QMC must point in the same direction of the X axis of the MPU. __If you want to place the sensors in a different way, you must change a little the code.__ 
 
 "Gire el magnetómetro..." means that you have to turn the sensor around its axes slowly and at a constant pace, it is the magnetometer calibration.
 
